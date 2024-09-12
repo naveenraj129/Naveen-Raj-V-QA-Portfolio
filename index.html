@@ -3,92 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Naveen Raj - Automation Tester Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Naveen Raj | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Naveen Raj V</h1>
-            <p>Automation Tester | Java | Selenium | TestNG | Jenkins</p>
             <nav>
+                <h1 class="logo">Naveen Raj</h1>
                 <ul>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="about">
+    <section class="hero">
+        <div class="container">
+            <h2>Hello, I'm Naveen Raj</h2>
+            <p>A passionate Software Test Engineer specialized in Automation Testing</p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I am a results-driven Software Test Engineer with expertise in automation and manual testing. Experienced with Selenium, TestNG, and Jenkins, I have contributed to robust software delivery processes. I enjoy solving complex problems, ensuring high-quality software, and continuously learning new testing strategies.</p>
+            <p>I'm a Software Test Engineer with expertise in manual and automation testing. I have hands-on experience with tools like Selenium WebDriver, TestNG, JIRA, Jenkins, and more. I love solving complex testing problems and ensuring high-quality software delivery.</p>
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="skills">
         <div class="container">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Languages:</strong> Java, SQL, HTML, CSS</li>
-                <li><strong>Automation Tools:</strong> Selenium, TestNG, Jenkins</li>
-                <li><strong>Testing Techniques:</strong> Data-driven Testing, POM, Cross-browser Testing</li>
-                <li><strong>CI/CD & Version Control:</strong> Jenkins, GitHub</li>
-                <li><strong>Database:</strong> MySQL</li>
-                <li><strong>Others:</strong> JIRA, Apache POI, Log4j, Cucumber (basics)</li>
-            </ul>
+            <h2>Skills</h2>
+            <div class="skill-grid">
+                <div class="skill">
+                    <h3>Automation Tools</h3>
+                    <p>Selenium, JUnit, TestNG, Postman</p>
+                </div>
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Java, SQL, HTML, CSS</p>
+                </div>
+                <div class="skill">
+                    <h3>CI/CD & Version Control</h3>
+                    <p>Jenkins, Git, GitHub</p>
+                </div>
+                <div class="skill">
+                    <h3>Testing Methodologies</h3>
+                    <p>Data-Driven Testing, Cross Browser Testing, POM</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="projects">
         <div class="container">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>BestBuy Automation Project</h3>
-                <p>Tested functionalities like HomePage, Signup Page, Login Page, Cart Page, Checkout Page, and Product Page using Selenium WebDriver and TestNG.</p>
-                <a href="https://github.com/naveenraj129/BestBuyEcommerce" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project">
-                <h3>SpiceJet Automation Project</h3>
-                <p>Tested functionalities like Homepage, Signup Page, Login Page, Payment Page, and Booking Page using Selenium WebDriver and TestNG.</p>
-                <a href="https://github.com/naveenraj129/SpiceJetAutomation" target="_blank">View on GitHub</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
-            <h2>Work Experience</h2>
-            <div class="experience">
-                <h3>Technical Support Specialist - Namecheap (Mar 2023 - Mar 2024)</h3>
-                <p>Managed server installations, DNS troubleshooting, and configured WHM/cPanel to enhance server performance.</p>
-            </div>
-
-            <div class="experience">
-                <h3>Non-Voice Process Associate - Hexaware (May 2022 - Jan 2023)</h3>
-                <p>Moderated content for streaming platforms, ensuring policy adherence and reducing violations.</p>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>SpiceJet Automation</h3>
+                    <p>Automated various functionalities of the SpiceJet website using Java, Selenium, and TestNG.</p>
+                    <a href="https://github.com/naveenraj129/SpiceJetAutomation" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>BestBuy Automation</h3>
+                    <p>Tested functionalities like product page, cart, and checkout using Java, Selenium, and TestNG.</p>
+                    <a href="https://github.com/naveenraj129/BestBuyEcommerce" target="_blank">View on GitHub</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Email: naveenrajv129@gmail.com</p>
-            <p>Phone: +91 8778335842</p>
-            <p>GitHub: <a href="https://github.com/naveenraj129" target="_blank">github.com/naveenraj129</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/naveen-raj-8a5597256/" target="_blank">linkedin.com/in/naveen-raj</a></p>
+            <p>If you'd like to work with me or have any questions, feel free to reach out!</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> naveenrajv129@gmail.com</p>
+                <p><strong>Phone:</strong> +91 8778335842</p>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Naveen Raj V. All rights reserved.</p>
+            <p>&copy; 2024 Naveen Raj | Designed by Naveen</p>
         </div>
     </footer>
 </body>
