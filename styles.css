@@ -65,6 +65,7 @@ header ul li a {
 .cta-btn {
     background: #007bff;
     padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
